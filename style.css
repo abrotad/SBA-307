@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Aerial, sans-serif;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(#565353);
+  padding: 0;
+}
+.navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+navbar-nav li a {
+  color: #fff;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+/* ............CONTENT................*/
+
+#content {
+  color: #ddb30a;
+  padding-top: 5%;
+
+  background-image: url("pexels-ekrulil.jpg");
+  background-size: cover; /* Ensures the image covers the whole container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed;
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Enables flexbox for centering content */
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Horizontally centers the content */
+  color: white; /* Text color, adjust as needed */
+  text-align: center;
+}
+
+.join-btn {
+  width: 160px;
+  height: 40px;
+  background: #9e6a3c;
+  border: #000;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.join-btn a {
+  text-decoration: none;
+  color: #000;
+  transition: 3s ease;
+}
+
+.join-btn:hover {
+  background-color: #fff;
+}
+#content-about {
+  background-image: url("pexel.About.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+/* ............contacts............ */
+
+#contacts-us {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("contact-us.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contacts-us .container form {
+  width: 670px;
+  height: 600;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  background: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  flex-wrap: wrap;
+}
+
+#contacts-us .container form h1 {
+  color: #484221;
+  font-weight: 700;
+  line-height: 2;
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+#contacts-us .container form input {
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: #484221;
+}
+
+#contacts-us .container form input::placeholder {
+  color: #b4a23f;
+}
+
+#contacts-us .container form #lastname,
+#contacts-us .container form #mobile {
+  margin-left: 20px;
+}
+
+#contacts-us .container form h4 {
+  color: #b4a23f;
+  font-weight: 300;
+  width: 600;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#contacts-us .container form textarea {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #484221;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  min-height: 90px;
+  max-height: 90px;
+  min-width: 620px;
+  max-width: 620px;
+}
+#contacts-us .container form #button {
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #484221;
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+#contacts-us .container form #button:hover {
+  background: #484221;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+/* ..............TABLE................................ */
+
+.table-container {
+  padding: 0 2%;
+  margin: 40px auto 0;
+}
+.heading {
+  font-size: 40px;
+  text-align: center;
+  color: #f1f1f1;
+  margin-bottom: 40px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table thead tr {
+  background-color: #484221;
+}
+.table tbody tr td {
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  font-weight: normal;
+  color: #fff;
+  background-color: #565353;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #dee2e685;
+}
